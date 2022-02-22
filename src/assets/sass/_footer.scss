@@ -1,0 +1,27 @@
+.background-container-footer{
+    background-color: #001548;
+    color: white;
+    height: 20vh;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    .logo-container{
+        display: flex;
+        justify-content: center;
+        img{width: 200px;}
+    }
+    .list-container{
+        display: flex;
+        justify-content: space-around;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    .copyright-container{
+        border-top: 2px white solid;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+}

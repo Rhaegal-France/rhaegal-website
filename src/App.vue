@@ -1,7 +1,7 @@
 <template>
+<Navbar></Navbar>
+<p>initialisation</p>
 <Footer></Footer>
-  <p>initialisation</p>
-  <Navbar></Navbar>
  
 </template>
 
@@ -22,7 +22,5 @@ export default {
   }
 }
 </script>
-<style >
 
-</style>
 
