@@ -1,0 +1,168 @@
+.home-content{
+    display: flex;
+    flex-direction: column;
+    #search{
+        border: 1px solid #707070;
+        border-radius: 64px;
+        margin: 30px;
+        height: 25px;
+        background-image: url('../image/search-solid\ \(1\).svg');
+        background-repeat: no-repeat;
+        background-size: 20px;
+        background-position: center;
+        background-position:20px;
+        text-indent:50px;
+    }
+    .home-intro{
+        background-image: url('../image/home_background_1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px;
+        #office-image{
+            margin: 10px; 
+            img{
+                width: 45vw;
+            }
+        }
+        #office-text{
+            margin: 10px; 
+            width:45vw;
+            p{
+                font-size: 15px;
+                color:#707070;
+            }
+        }
+    }
+}
+.our-activities{
+    background-image: url('../image/home_background_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    .activity-text{
+       text-align: center;
+       color: white;
+       font-family: 'Montserrat-Bold';
+       font-size: 40px;
+    }
+    .encart-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .encarts{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color:white;
+            width: 30vw;
+            img{
+                color:#FF6A14;
+                width: 100px;
+            }
+            div{
+                margin: 20px;
+                .title{
+                    font-size: 20px;
+                    font-family: "Montserrat-Bold";
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+}
+.contact-us{
+    background-image: url('../image/home_background_3.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    h3{
+        font-size: 40px;
+        font-family: 'Montserrat-Bold';
+        text-align: center;
+    }
+    .contact-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 100px;
+
+        .form-container{
+            display: flex;
+            flex-direction: column;
+            width: 20vw;
+            justify-content: space-around;
+            .contact-form-text{
+                font-family: 'Montserrat-Bold';
+            }
+                input{
+                    text-decoration: none;
+                    border: 0;
+                    border-bottom: #707070 solid 1px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+            }
+            #message{
+                border: #707070 solid 1px;
+                width: 100%;
+                height: 30vh;
+            }
+            button{
+                background-color: #FF6A14;
+                border: 0;
+                color: white;
+                border-radius: 2px;
+                height: 30px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+        .info-container{
+            background-color:#05194B;
+            color: white;
+            display: flex;
+            width: 30vw;
+            display: flex;
+            justify-content: space-around;
+            height: 55vh;
+            position: relative;
+            .indent-container{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                
+                #square-orange{
+                    width: 40px;
+                    height: 40px;
+                    position: absolute;
+                    right: 30vw;
+                    bottom: 55vh;
+                    background-color: #FF6A14;
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;  
+                    height: 40%; 
+                    #infos{
+                        font-size: 40px;
+                        font-family: 'Montserrat-Bold';
+                    }
+                    p{
+                        span{
+                            font-family: 'Montserrat-Bold';
+                        }
+                    }                 
+                }
+            }
+        }
+    }
+}

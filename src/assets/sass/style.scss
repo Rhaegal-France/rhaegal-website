@@ -1,8 +1,14 @@
 @import "home";
 @import "footer";
+@import "navbar";
 @import "fonts";
 
 *{
     margin: 0;
     font-family:'Montserrat-Regular';
+}
+.picto{width: 30px;}
+a{
+    text-decoration: none;
+    color:#707070;
 }
