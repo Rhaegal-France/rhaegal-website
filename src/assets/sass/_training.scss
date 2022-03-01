@@ -1,0 +1,27 @@
+.training-container{
+background-image: url(../image/cloud_service_1.png);
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+margin-bottom: 20px;
+article{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+width: 20vw;
+height: 40vh;
+p{
+    span{
+        font-family: 'Montserrat-Bold';
+    }
+}
+    img{
+        width: 10vw;
+    }
+}
+}

@@ -2,6 +2,11 @@
 @import "footer";
 @import "navbar";
 @import "fonts";
+@import "consulting";
+@import "training";
+@import "cloud";
+@import "joinus";
+@import "sucess";
 
 *{
     margin: 0;
@@ -11,4 +16,11 @@
 a{
     text-decoration: none;
     color:#707070;
+}
+
+h3{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Montserrat-Bold';
+    padding: 30px;
 }

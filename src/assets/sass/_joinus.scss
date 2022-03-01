@@ -1,0 +1,41 @@
+.join-us{
+
+    .join-us-container{
+        display: flex;
+        justify-content: space-between;
+        background-image: url(../image/background_about_us.png);
+        background-position: center;
+        height: 100vh;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        #join-image-container{
+            img{
+                width: 50vw;
+                border-radius: 0px 0px 60px 0px;
+            }
+        }
+        #join-text-container{
+            display: flex;
+            flex-direction: column;
+            height: 50%;
+            width: 50vw;
+            align-items: center;
+            justify-content: space-around;
+        #first-block{
+            width: 30vw;
+            #bold{
+                font-family: 'Montserrat-Bold';
+            }
+
+        }
+        #second-block{
+            width: 30vw;
+            p{
+                color: white;
+                font-family: 'Montserrat-Semibold';
+            }
+        }
+        }
+    }
+}
