@@ -8,6 +8,15 @@
 @import "joinus";
 @import "sucess";
 
+// responsive 
+@import "query_home";
+@import "query_navbar";
+@import "query_consulting";
+@import "query_training";
+@import "query_cloud";
+@import "query_joinus";
+@import "query_sucess";
+
 *{
     margin: 0;
     font-family:'Montserrat-Regular';
@@ -23,4 +32,99 @@ h3{
     text-align: center;
     font-family: 'Montserrat-Bold';
     padding: 30px;
+}
+
+
+@media screen and (max-width: 3500px) {
+    .our-activities .encart-container .encarts div .title,
+    .home-content .home-intro #office-text p,
+    p{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 50px;
+    }
+    a, input, button{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 2500px) {
+    .our-activities .encart-container .encarts div .title,
+    .home-content .home-intro #office-text p,
+    .contact-us .contact-container .info-container .indent-container div #infos,
+    p{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 45px;
+    }
+    a, input, button{
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width: 1640px) {
+    .our-activities .encart-container .encarts div .title,
+    .home-content .home-intro #office-text p,
+    .contact-us .contact-container .info-container .indent-container div #infos,
+    p{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3,
+    .our-activities .activity-text,
+    .contact-us h3{
+        font-size: 35px;
+    }
+    a, input, button{
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    .our-activities .encart-container .encarts div .title,
+    .home-content .home-intro #office-text p,
+    .contact-us .contact-container .info-container .indent-container div #infos,
+    p{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3,
+    .our-activities .activity-text,
+    .contact-us h3{
+        font-size: 25px;
+    }
+    a, input, button{
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .our-activities .encart-container .encarts div .title,
+    .home-content .home-intro #office-text p,
+    .contact-us .contact-container .info-container .indent-container div #infos,
+    p{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3,
+    .our-activities .activity-text,
+    .contact-us h3{
+        font-size: 20px;
+    }
+    a, input, button{
+        font-size: 12px;
+    }
 }

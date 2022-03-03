@@ -12,6 +12,7 @@
         background-position: center;
         background-position:20px;
         text-indent:50px;
+        display: none;
     }
     .home-intro{
         background-image: url('../image/home_background_1.png');
@@ -21,10 +22,12 @@
         justify-content: space-around;
         align-items: center;
         padding: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
         #office-image{
             margin: 10px; 
             img{
-                width: 45vw;
+                width: 40vw;
             }
         }
         #office-text{
@@ -143,7 +146,7 @@
                     width: 40px;
                     height: 40px;
                     position: absolute;
-                    right: 30vw;
+                    left: -5%;
                     bottom: 55vh;
                     background-color: #FF6A14;
                 }
