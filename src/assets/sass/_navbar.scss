@@ -5,10 +5,38 @@
     align-items: center;
     font-size: 20px;
     color: #707070;
-
+    
     #logo-nav{
         img{
             width: 20vw;
         }
     }
+    .nav-content{
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        
+    }
+    #menu-hamburger{
+        width: 20px;
+        position: relative;
+        display: none;
+        //display: inline-block;
+        .dropdown-content{
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;           
+            a{
+                padding: 20px;
+                border-bottom: #70707048 solid 1px;
+            }
+        }
+    }
+    #menu-hamburger:hover .dropdown-content {
+        display: flex;
+      }
 }

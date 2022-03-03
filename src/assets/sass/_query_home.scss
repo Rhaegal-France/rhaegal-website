@@ -50,8 +50,16 @@
     }
 }
 @media screen and (max-width: 425px) {
-
-}
-@media screen and (max-width: 320px) {
-
+    .our-activities {
+        height: 80vh;
+        padding: 40px;
+        background-position: center;
+        .encart-container{
+            flex-direction: column;
+            .encarts{
+                width: 100%;
+                flex-direction: row;
+            }
+        }
+    }
 }

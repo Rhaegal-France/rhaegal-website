@@ -1,16 +1,54 @@
 @media screen and (max-width: 2500px) {
+    .training-container {
+        height: 80vh;
+       article{ 
+           height:50vh ;
+           img {
+        width: 20vw;
+    }}}
 
 }
 @media screen and (max-width: 1440px) {
+    .training-container {
+        height: 60vh;
+       article{ 
+           height: 30vh;
+           img {
+        width: 15vw;
+    }}}
 
 }
 @media screen and (max-width: 1024px) {
+    .training-container {
+        height: 40vh;
+       article{ 
+           height: 20vh;
+           img {
+        width: 15vw;
+    }}}
 
 }
 @media screen and (max-width: 768px) {
+    .training-container {
+        height: 30vh;
+       article{ 
+           height: 15vh;
+           img {
+        width: 10vw;
+    }}}
 
 }
 @media screen and (max-width: 425px) {
+    .training-container {
+        height: 60vh;
+        flex-direction: column;
+        background-position: right;
+        justify-content: center;
+        article{
+            margin: 50px;
+        }
+       }
+
 
 }
 @media screen and (max-width: 320px) {

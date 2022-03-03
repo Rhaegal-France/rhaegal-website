@@ -1,15 +1,13 @@
-@media screen and (max-width: 2500px) {
-    
-
-}
-@media screen and (max-width: 1440px) {
-
-}
-@media screen and (max-width: 1024px) {
-
-}
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 600px) {
+    .navbar-container{
+        .nav-content{
+            display: none;
+        }
+        #menu-hamburger{
+        display: inline-block;
+        justify-self: end;
+        }
+    }
 }
 @media screen and (max-width: 425px) {
 

@@ -6,6 +6,7 @@
     <div class="list-container">
      <a href="#">Job offers</a>
      <a href="#">Consulting</a>
+    
     </div>
     <div class="copyright-container">
       <p>©2022, Rhaegal.com</p>

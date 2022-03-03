@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 30vh;
+    padding-bottom: 10vh;
     #technical-content{
         display: flex;
         align-items: center;
@@ -33,7 +33,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 30vh;
+    padding-bottom: 10vh;
     h3{
         padding: 10vh;
         color: white;
@@ -53,6 +53,8 @@
                 flex-direction: column;
                 align-items: center;
                 padding: 20px;
+                justify-content: space-around;
+                align-items: center;
                 .bold{
                     font-family: 'Montserrat-SemiBold';
                     color: white;
