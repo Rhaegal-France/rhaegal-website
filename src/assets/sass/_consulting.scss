@@ -1,0 +1,91 @@
+.technical{
+    background-image: url(../image/consulting_background_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30vh;
+    #technical-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 70%;
+        #img-office{
+           img{
+               width: 40vw;
+           }
+    }
+    #technical-description{
+        p{
+            font-family: 'Montserrat-Bold';
+        }
+    }
+}
+}
+.functional{
+    background-image: url(../image/consulting_background_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30vh;
+    h3{
+        padding: 10vh;
+        color: white;
+    }
+    .functional-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .picto-functional{
+            padding-bottom: 10vh;
+            width:80%;
+            display: grid;
+            grid-template-columns:auto auto auto auto;
+            div{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+                .bold{
+                    font-family: 'Montserrat-SemiBold';
+                    color: white;
+                    text-align: center;
+                }
+                img{
+                    width: 10vw;
+                }
+
+            }
+
+        }
+        .encart{
+            display: flex;
+            color: white;
+            justify-content: space-around;
+            div{
+                position: relative;
+                width: 20%;
+                .bold{
+                    width: 50%;
+                    font-family: 'Montserrat-Bold';
+                    padding-bottom: 15px;
+                }
+                .orange-square{
+                    background-color:#FF6A14;
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                    right: -20px;
+                    top: 0;
+                }
+            }
+        }
+    }
+}

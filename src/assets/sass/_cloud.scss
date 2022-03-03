@@ -27,6 +27,10 @@
         position: absolute;
         right: 30%;
         margin-top: 3vh;
+        box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.13);
+      }
+      button:hover {
+        box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.13) inset;
       }
     }
     #cloud-container {
@@ -38,9 +42,28 @@
   .appToSmart {
     display: flex;
     justify-content: space-around;
-    width: 60%;
+    width: 70%;
     align-self: center;
-
+    #os {
+      position: relative;
+      display: flex;
+      justify-content:flex-start;
+      .pop-container {
+        position: absolute;
+        top: -50px;
+        left: 50px;
+        display: none;
+        color: #a4b2db;
+    }
+}
+#os:hover {
+    .pop-container{
+          border: #a4b2db solid 2px;
+          padding: 5px;
+          border-radius: 10px;
+          display: block;
+      }
+    }
     div {
       width: 15vw;
       display: flex;
@@ -60,7 +83,6 @@
         font-family: "Montserrat-Bold";
         top: -100px;
         left: -50px;
-        
       }
       #purpleBtnRound {
         background-color: #a4b2db;
@@ -88,6 +110,7 @@
         top: -100px;
         left: -50px;
       }
+
       .bold {
         font-family: "Montserrat-Bold";
       }
@@ -97,6 +120,7 @@
         padding: 10px;
         color: white;
         border-radius: 10px;
+        text-align: center;
       }
     }
   }
@@ -187,20 +211,20 @@
         #bold {
           font-family: "Montserrat-Bold";
         }
-        p{
-           width: 90%;
+        p {
+          width: 90%;
         }
       }
     }
     img {
       width: 30vw;
     }
-    #text-blind{
-        display: flex;
-        #bold{
-            font-family:'Montserrat-Bold';
-            padding: 30px;
-        }
+    #text-blind {
+      display: flex;
+      #bold {
+        font-family: "Montserrat-Bold";
+        padding: 30px;
+      }
     }
   }
 }

@@ -8,7 +8,9 @@
           and administrators <br /><br />
           Discover our apps !
         </p>
-        <button>RHAEGAL.APP</button>
+        <a href="https://rhaegal.app/">
+          <button>RHAEGAL.APP</button>
+        </a>
       </div>
       <div id="cloud-container">
         <img src="../assets/image/cloud.png" alt="" />
@@ -16,19 +18,23 @@
     </article>
     <article class="appToSmart">
       <div id="org">
-        <button id="orangeBtnRound">ORG2</button>
+        <a href="https://rhaegal.app/org2smart/">
+          <button id="orangeBtnRound">ORG2</button>
+        </a>
         <p class="bold">ORG2SMART</p>
         <p>Import/export values of job and/or organisational fields.</p>
-        <button id="bluebtn">Sucess story</button>
+        <a href="/sucess/#fraser/" id="bluebtn"> Sucess story </a>
       </div>
       <div id="user">
-        <button id="purpleBtnRound">USER2</button>
+        <a href="https://rhaegal.app/user2smartv2/">
+          <button id="purpleBtnRound">USER2</button>
+        </a>
         <p class="bold">USER2SMART</p>
         <p>
           Easily import/export/ update your users in your SmartRecruiters
           environment.
         </p>
-        <button id="bluebtn">Sucess story</button>
+        <a href="/sucess/" id="bluebtn"> Sucess story </a>
       </div>
       <div id="os">
         <button id="blueBtnRound">O.S</button>
@@ -36,7 +42,9 @@
         <p>
           Securely plan and synchronise your data for creation/update/ deletion.
         </p>
-        <button id="bluebtn">Sucess story</button>
+        <div class="pop-container">
+          <p>O.S is a functionality of form and org </p>
+        </div>
       </div>
     </article>
     <section class="cloud-solution">
