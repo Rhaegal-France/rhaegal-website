@@ -1,18 +1,88 @@
-@media screen and (max-width: 2500px) {
-
+@media screen and (max-width: 3500px) {
+  .cloud-containeur {
+    .appToSmart {
+      margin: 90px;
+      div {
+        #blueBtnRound {
+          top: -180px;
+          left: -50px;
+        }
+        #purpleBtnRound {
+          top: -180px;
+          left: -50px;
+        }
+        #orangeBtnRound {
+          top: -180px;
+          left: -50px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1740px) {
+  .cloud-containeur {
+    .service-cloud {
+      height: 54vh;
+    }
+    .appToSmart {
+      margin: 90px;
+    }
+    .cloud-solution {
+      height: 90vh;
+    }
+  }
 }
 @media screen and (max-width: 1440px) {
-
-}
-@media screen and (max-width: 1024px) {
-
+  .cloud-containeur {
+    .cloud-solution {
+        height: 53vh;
+    }
+    .diversity-inclusion article #text-container {
+      width: 35vw;
+      p {
+        margin: 10px;
+      }
+    }
+    .smartRecruiter .smart-container article #smart-text {
+        width: 50vw;
+    }
+    .appToSmart {
+        margin: 90px;
+        div {
+          #blueBtnRound {
+            top: -100px;
+          }
+          #purpleBtnRound {
+            top: -100px;
+          }
+          #orangeBtnRound {
+            top: -100px;
+          }
+        }
+      }
+  }
 }
 @media screen and (max-width: 768px) {
-
+    .cloud-containeur {
+        .service-cloud {
+        flex-direction: column;
+        height: 38vh;
+        .text-container {
+            width: 70vw;
+            p{
+                width: 60%;
+            }
+        }}
+    }
+    .cloud-solution {
+        height: 54vh;
+        flex-direction: column;
+        background-position: center;
+        
+       
+    }
 }
 @media screen and (max-width: 425px) {
-
 }
 @media screen and (max-width: 320px) {
-
 }
