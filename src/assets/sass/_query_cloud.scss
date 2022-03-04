@@ -35,7 +35,7 @@
 @media screen and (max-width: 1440px) {
   .cloud-containeur {
     .cloud-solution {
-        height: 53vh;
+      height: 93vh;
     }
     .diversity-inclusion article #text-container {
       width: 35vw;
@@ -44,45 +44,116 @@
       }
     }
     .smartRecruiter .smart-container article #smart-text {
-        width: 50vw;
+      width: 50vw;
     }
     .appToSmart {
-        margin: 90px;
-        div {
-          #blueBtnRound {
-            top: -100px;
-          }
-          #purpleBtnRound {
-            top: -100px;
-          }
-          #orangeBtnRound {
-            top: -100px;
-          }
+      margin: 90px;
+      div {
+        #blueBtnRound {
+          top: -100px;
+        }
+        #purpleBtnRound {
+          top: -100px;
+        }
+        #orangeBtnRound {
+          top: -100px;
         }
       }
+    }
   }
 }
 @media screen and (max-width: 768px) {
-    .cloud-containeur {
-        .service-cloud {
-        flex-direction: column;
-        height: 38vh;
-        .text-container {
-            width: 70vw;
-            p{
-                width: 60%;
-            }
-        }}
+  .cloud-containeur {
+    .service-cloud {
+      flex-direction: column;
+      align-items: center;
+      justify-content: end;
+      height: 38vh;
+      .text-container {
+        width: 70vw;
+        p {
+          width: 100%;
+        }
+        button {
+          right: 0%;
+          margin-top: 0;
+          padding: 10px;
+        }
+      }
     }
     .cloud-solution {
-        height: 54vh;
-        flex-direction: column;
-        background-position: center;
-        
-       
+      flex-direction: column;
+      background-position: center;
+      justify-content: center;
+      height: 85vh;
+      article {
+        margin: 10px;
+        img {
+          width: 50vw;
+        }
+        p {
+          width: 60vw;
+        }
+      }
     }
+    .smartRecruiter .smart-container article img {
+      width: 37vw;
+    }
+  }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 525px) {
+  .cloud-containeur {
+    .service-cloud {
+        justify-content: space-evenly;
+    }
+    .cloud-solution {
+        height: 70vh;
+    }
+    .appToSmart {
+      flex-direction: column;
+      height: 90vh;
+      width: 0;
+      div {
+        width: 0vw;
+        align-items: center;
+      }
+    }
+    .smartRecruiter {
+      padding-top: 0vh;
+      padding-bottom: 0vh;
+      h3 {
+        margin-bottom: 0;
+      }
+      .smart-container {
+        #orange-container {
+            top: -8%;
+        }
+        article {
+          height: 60vh;
+          flex-direction: column;
+          align-items: center;
+          #smart-text {
+            width: 60vw;
+        }
+          img {
+            width: 56vw;
+          }
+          
+        }
+      }
+    }
+    .diversity-inclusion {
+        img {
+            width: 60vw;
+        }
+        article #text-container {
+        width: 60vw;
+        p{
+            width: 100%;
+        }
+        
+    }}
+  }
 }
 @media screen and (max-width: 320px) {
 }
